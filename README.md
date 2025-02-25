@@ -20,17 +20,17 @@
     <main>
         <section id="performance">
             <h2>Performance</h2>
-            <img src="nvdia">
+            <img src="nvdia" alt="GPU Performance Comparison">
             <p>Nvidia GPUs often excel in raw performance, especially in high-end gaming and professional applications. AMD, on the other hand, provides competitive performance at a lower price point.</p>
         </section>
         <section id="pricing">
             <h2>Pricing</h2>
-            <img src="amd">
+            <img src="amd" alt="GPU Pricing Comparison">
             <p>AMD is generally considered more budget-friendly, offering better price-to-performance ratios in mid-range and entry-level GPUs. Nvidia dominates the premium market.</p>
         </section>
         <section id="features">
             <h2>Features</h2>
-            <img src="nvamd">
+            <img src="nvamd" alt="GPU Features Comparison">
             <p>Nvidia boasts exclusive features like DLSS and CUDA cores, while AMD focuses on open technologies like FreeSync and Smart Access Memory (SAM).</p>
         </section>
     </main>

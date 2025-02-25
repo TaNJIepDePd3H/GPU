@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сравнение видеокарт NVIDIA и AMD</title>
+</head>
+<body>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -42,8 +44,6 @@
             color: #7f8c8d;
         }
     </style>
-</head>
-<body>
     <header>
         <h1>Сравнение видеокарт NVIDIA и AMD</h1>
     </header>

@@ -17,7 +17,10 @@ header {
 nav {
     background-color: #005bb5;
     padding: 10px;
+    display: inline-block;
+    width: 80%;
 }
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -25,10 +28,7 @@ nav ul {
     display: flex;
     justify-content: center;
 }
-nav li {
-    display: inline;
-    margin: 0 15px;
-}
+
 nav a {
     text-decoration: none;
     color: white;
@@ -36,9 +36,14 @@ nav a {
     padding: 8px 12px;
     transition: 0.3s;
 }
+
 nav a:hover {
     background-color: #004494;
     border-radius: 5px;
+}
+
+nav img {
+    width: 10%;
 }
 
 main {
@@ -47,6 +52,7 @@ main {
     text-align: center;
     color: black;
 }
+
 section {
     margin-bottom: 30px;
     padding: 20px;
@@ -54,9 +60,11 @@ section {
     background-color: #f0f8ff;
     color: black;
 }
+
 h1, h2 {
     color: black;
 }
+
 p {
     line-height: 1.5;
     color: black;
@@ -68,4 +76,37 @@ footer {
     text-align: center;
     padding: 10px;
     margin-top: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.grid img {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 10px;
 }
